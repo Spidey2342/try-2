@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* part one */
+.first{
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.555)), url(mikasa-ackerman-facing-the-colossal-titan-desktop-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0.5px);
+    height: 95vh;
+    animation-name: spidey;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1000;
+    padding: 30px;
+    
+}
+
+.logo a{
+    color: white;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    /* margin-left: 590px; */
+}
+nav ul li a{
+    color: white;
+    margin: 25px;
+}
+
+.click{
+    height: 40px;
+    width: 130px;
+    border-bottom: 3px solid black;
+    border-radius: 2px;
+    
+}
+.text{
+    text-align: center;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 150px;
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.span{
+    color: yellow;
+}
+/* amimation */
+@keyframes spidey{
+    0%{
+        background-image:(mikasa-ackerman-facing-the-colossal-titan-desktop-wallpaper.jpg) ;
+    }
+    25%{
+
+    }
+    50%{
+        background-image: url(anime-boy-relaxing-desktop-wallpaper.jpg);
+    }
+    75%{
+        background-image:url(anime-boy-with-blue-glowing-eyes-desktop-wallpaper.jpg);
+    }
+    100%{
+        background-image:url(luffy-straw-hat-fisheye-perspective-desktop-wallpaper-4k.jpg);
+    }
+
+}
+/* anime */
+.tt{
+    margin-top: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    flex: 1; overflow: hidden;
+    
+
+}
+.one{
+    height: 300px;
+    width: 300px;
+    background:linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.425)),url(solo-leveling-blue-eyes-desktop-wallpaper-4k.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    transition: all .5s;
+    border-radius: 2rem;
+    
+}
+.one:hover{
+    transform: scale(1.4) rotate(12deg);
+}
+h4{
+    margin-top: 190px;
+}
+.two{
+    height: 300px;
+    width: 300px;
+    background:linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.425)),url(kurosaki-ichigo-with-sword-bleach-desktop-wallpaper.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    transition: all .5s;
+    border-radius: 2rem;
+    
+}
+.two:hover{
+    transform: scale(1.4) rotate(12deg); 
+}
+.three{
+    height: 300px;
+    width: 300px;
+    background:linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.425)),url(hayato-suo-wind-breaker-anime-wallpaper-scaled.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    transition: all .5s;
+    border-radius: 2rem;
+   
+}
+.three:hover{
+    transform: scale(1.4) rotate(12deg);
+}
+.four{
+    height: 300px;
+    width: 300px;
+    background:linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.425)),url(hello.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    transition: all .5s;
+    border-radius: 2rem;
+}
+.four:hover{
+    transform: scale(1.4) rotate(12deg);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for-screen */
+@media screen and (max-width: 768px) {
+    .content {
+        width: 90%; /* Increase content width on smaller screens */
+    }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+    .content {
+        width: 100%; /* Take up full width on very small screens */
+        padding: 10px;
+    }
